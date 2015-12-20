@@ -1,4 +1,4 @@
-﻿namespace grnline.fs.Persimmon.Tests
+﻿namespace grnline.fs.Tests
 
 open Persimmon
 open Type

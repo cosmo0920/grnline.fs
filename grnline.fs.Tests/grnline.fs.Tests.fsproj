@@ -8,11 +8,11 @@
     <ProjectGuid>5593bb12-6fae-4b19-9d2d-e0f3c2284ddf</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>grnline.fs.Tests</RootNamespace>
-    <AssemblyName>grnline.fs.Persimmon.Tests</AssemblyName>
+    <AssemblyName>grnline.fs.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <TargetFSharpCoreVersion>4.3.1.0</TargetFSharpCoreVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Name>grnline.fs.Persimmon.Tests</Name>
+    <Name>grnline.fs.Tests</Name>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
