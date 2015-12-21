@@ -40,8 +40,6 @@ module CommandLineParserTest =
             do! assertEquals true full_config.Pretty
         }
 
-    exception MyException
-
     let ``commandline argument parser exception test`` =
         test "commandline argument parser exception test" {
             let f () =
