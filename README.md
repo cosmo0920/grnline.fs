@@ -51,6 +51,10 @@ If you enconter space contained path, you can get MS-DOS 8.3 style path with `di
   * Argu (for command line arguments parser)
   * Json.NET (for pretty printing JSON)
 
+## Testing
+
+Note that this project uses [Persimmon](https://github.com/persimmon-projects/Persimmon) as a testing library.
+
 ## LICENSE
 
 [MIT](LICENSE).
