@@ -17,10 +17,7 @@ module CommandLineParserTest =
 
     let ``commandline argument default config test`` =
         test "commandline argument default config test" {
-            do! assertEquals groonga_path config.Path
-            do! assertEquals db_path config.DBPath
-            do! assertEquals "UTF-8" config.DBEncoding
-            do! assertEquals false config.Pretty
+            do! assertEquals config parsed
         }
 
     let full_parsed = parseArgv [|"--groonga-path"; groonga_path; "--db-path"; db_path; 
@@ -34,10 +31,7 @@ module CommandLineParserTest =
 
     let ``commandline argument full specified config test`` =
         test "commandline argument full specified config test" {
-            do! assertEquals groonga_path full_config.Path
-            do! assertEquals db_path full_config.DBPath
-            do! assertEquals "SHIFT_JIS" full_config.DBEncoding
-            do! assertEquals true full_config.Pretty
+            do! assertEquals full_config full_parsed
         }
 
     let ``commandline argument parser exception test`` =
