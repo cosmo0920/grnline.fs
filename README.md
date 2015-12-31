@@ -1,9 +1,14 @@
 grnline.fs
 ===
 
-[![Build status](https://ci.appveyor.com/api/projects/status/80nv02co2akud13t/branch/master?svg=true)](https://ci.appveyor.com/project/cosmo0920/grnline-fs/branch/master)
-
 A command line tool for Gronga on .NET 4.5.
+
+## Build Status
+
+| Windows Server 2012 R2 (Appveyor) | Mono 4.2.1 or later, OSX (Travis) |
+|:------------:|:------------:|
+| [![Build status](https://ci.appveyor.com/api/projects/status/80nv02co2akud13t/branch/master?svg=true)](https://ci.appveyor.com/project/cosmo0920/grnline-fs/branch/master) | [![Build Status](https://travis-ci.org/cosmo0920/grnline.fs.svg?branch=master)](https://travis-ci.org/cosmo0920/grnline.fs) |
+
 
 ## Try it
 
