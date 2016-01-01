@@ -51,7 +51,8 @@
   </Choose>
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
-    <Compile Include="DetectMono.fs" />
+    <Compile Include="Helper.fs" />
+    <Compile Include="DetectMonoTest.fs" />
     <Compile Include="ConfigTest.fs" />
     <Content Include="packages.config" />
     <Compile Include="CommandLineParserTest.fs" />

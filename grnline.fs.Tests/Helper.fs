@@ -1,7 +1,7 @@
 ﻿namespace grnline.fs.Tests
 open System
 
-module DetectMonoTestHelper =
+module Helper =
     let is_mono =
         let t = Type.GetType "Mono.Runtime"
         t = null |> not
