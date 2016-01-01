@@ -13,6 +13,11 @@ let validate_environment config =
         "Groonga database does not exist specified path: " + config.DBPath |> printfn "%s"
         exit 1
 
+let handle_exit_command line =
+    if line = "quit" || line = "shutdown" then
+        printf "Bye!"
+        exit 0
+
 [<EntryPoint>]
 let main argv =
     try
@@ -29,9 +34,7 @@ let main argv =
 
             let line = tr.ReadLine()
             inputs <- List.append inputs [line]
-            if line = "quit" || line = "shutdown" then
-                printf "Bye!"
-                exit 0
+            handle_exit_command line
 
             let result = start_groonga config inputs
             if result = "" then
