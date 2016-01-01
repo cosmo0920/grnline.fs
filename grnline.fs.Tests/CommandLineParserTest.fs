@@ -8,8 +8,8 @@ module CommandLineParserTest =
     let groonga_path = "C:\\groonga-5.1.0-x64\\groonga-5.1.0-x64\\bin\\groonga.exe"
     let db_path = "test.db"
     let parsed = parseArgv [|"--groonga-path"; groonga_path; "--db-path"; db_path|]
-    let config = {
-        Config.Path = groonga_path;
+    let config: Config = {
+        Path = groonga_path;
         DBPath = db_path;
         DBEncoding = "UTF-8";
         Pretty = false
@@ -22,8 +22,8 @@ module CommandLineParserTest =
 
     let full_parsed = parseArgv [|"--groonga-path"; groonga_path; "--db-path"; db_path; 
                                   "--encoding"; "SHIFT_JIS"; "--pretty"; "true" |]
-    let full_config = {
-        Config.Path = groonga_path;
+    let full_config: Config = {
+        Path = groonga_path;
         DBPath = db_path;
         DBEncoding = "SHIFT_JIS";
         Pretty = true
