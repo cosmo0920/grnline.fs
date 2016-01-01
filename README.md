@@ -60,6 +60,14 @@ If you enconter space contained path, you can get MS-DOS 8.3 style path with `di
 
 Note that this project uses [Persimmon](https://github.com/persimmon-projects/Persimmon) as a testing library.
 
+### For Windows
+
+* Run `RunTests.ps1` on PowerShell. You have to set `Remote-Signed` PowerShell security level with `Set-ExecutionPolicy` Cmdlet.
+
+### For OS X
+
+* Run `RunTests.sh`.
+
 ## LICENSE
 
 [MIT](LICENSE).
