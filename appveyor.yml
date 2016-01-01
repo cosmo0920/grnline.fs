@@ -1,5 +1,8 @@
 version: 0.0.4.{build}
 
+skip_commits:
+  message: \[(ci skip|skip ci)\].*
+
 before_build:
   - nuget restore
 
