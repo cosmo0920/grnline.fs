@@ -11,7 +11,8 @@ install:
   - sudo installer -pkg "MonoFramework-MDK-${MONO_VERSION}.macos10.xamarin.x86.pkg" -target /
 
 before_script:
-  - mono .nuget/NuGet.exe restore
+  - mono .paket/paket.bootstrapper.exe
+  - mono .paket/paket.exe restore
 
 script:
   - ./RunTests.sh

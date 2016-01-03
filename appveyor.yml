@@ -4,7 +4,8 @@ skip_commits:
   message: \[(ci skip|skip ci)\].*
 
 before_build:
-  - nuget restore
+  - .paket\paket.bootstrapper.exe
+  - .paket\paket.exe restore
 
 test_script:
   - ps: .\RunTests.ps1
