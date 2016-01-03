@@ -5,9 +5,9 @@ A command line tool for Gronga on .NET 4.5.
 
 ## Build Status
 
-| Windows Server 2012 R2 (Appveyor) | Mono 4.2.1 or later, OSX (Travis) |
-|:------------:|:------------:|
-| [![Build status](https://ci.appveyor.com/api/projects/status/80nv02co2akud13t/branch/master?svg=true)](https://ci.appveyor.com/project/cosmo0920/grnline-fs/branch/master) | [![Build Status](https://travis-ci.org/cosmo0920/grnline.fs.svg?branch=master)](https://travis-ci.org/cosmo0920/grnline.fs) |
+| Windows Server 2012 R2 (Appveyor) | Mono 4.2.1 or later, OSX (Travis) | Mono 4.2.1 or later, Ubuntu Trusty (Wercker) |
+|:------------:|:------------:|:------------:|
+| [![Build status](https://ci.appveyor.com/api/projects/status/80nv02co2akud13t/branch/master?svg=true)](https://ci.appveyor.com/project/cosmo0920/grnline-fs/branch/master) | [![Build Status](https://travis-ci.org/cosmo0920/grnline.fs.svg?branch=master)](https://travis-ci.org/cosmo0920/grnline.fs) | [![wercker status](https://app.wercker.com/status/18234624443f2d24c195eabaf16b4f2a/s/master "wercker status")](https://app.wercker.com/project/bykey/18234624443f2d24c195eabaf16b4f2a)
 
 
 ## Try it
