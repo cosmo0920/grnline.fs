@@ -1,0 +1,9 @@
+source https://www.nuget.org/api/v2
+
+nuget Nuget.CommandLine
+nuget Argu 1.1.3 framework: >= net45
+nuget Newtonsoft.Json 7.0.1 framework: >= net45
+nuget Persimmon 1.0.1 framework: >= net45
+nuget Persimmon.Console 1.0.1 framework: >= net452
+nuget Persimmon.Runner 1.0.1 framework: >= net45
+nuget Persimmon.Script 1.0.1 framework: >= net45
