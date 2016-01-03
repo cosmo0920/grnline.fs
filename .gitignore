@@ -6,3 +6,4 @@ Debug
 obj
 bin
 packages/
+.paket/paket.exe
