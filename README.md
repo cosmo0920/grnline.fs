@@ -58,7 +58,7 @@ mono grnline.fs.exe --groonga-path `which groonga` --db-path test.db --encoding 
 
 `grnline.fs` create child Groonga process and Groonga child process redirects stdin/stdout to its parent.
 
-You can use pritty printing with adding `--pretty true` to command line arguments.
+You can use pretty printing with adding `--pretty true` to command line arguments.
 
 #### Note
 
