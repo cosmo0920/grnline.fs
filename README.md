@@ -26,7 +26,7 @@ A command line tool for Gronga on .NET 4.5.
 
 * Unpack grnline.fs-VERSION.zip
 
-* Execute grnline.fs.exe via cmd.exe or powershell.exe
+* Execute grnline.fs.exe via bash or zsh or other posix like shell.
 
 ## Usage
 
