@@ -1,4 +1,4 @@
-MSBuild.exe grnline.fs.sln /property:Configuration=Debug /property:VisualStudioVersion=12.0 /target:rebuild
+MSBuild.exe grnline.fs.sln /property:Configuration=Debug /property:VisualStudioVersion=14.0 /target:rebuild
 
 $inputs = @(
   ".\grnline.fs.Tests\bin\Debug\grnline.fs.Tests.dll"
