@@ -68,7 +68,7 @@ If you enconter space contained path, you can get MS-DOS 8.3 style path with `di
 
 ### For Windows
 
-* Install Visual Studio 2013. (Including Express Edition and not VS 2015)
+* Install Visual Studio 2015 Community.
 * Use nuget to restore dependent libraries.
   * Argu (for command line arguments parser)
   * Json.NET (for pretty printing JSON)

@@ -1,4 +1,5 @@
 version: 0.1.0.{build}
+image: Visual Studio 2015
 
 skip_commits:
   message: \[(ci skip|skip ci)\].*
